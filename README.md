@@ -26,3 +26,8 @@
 4. 全连接层:
 
 全连接层的作用就是分类器，我使用了一层隐藏层的全连接网络进行分类，最后 log_softmax 输出分类结果。
+
+![image](https://github.com/BoxFighter/TencentAD2020/blob/master/lstm2.png?raw=true)
+
+
+![image](https://github.com/BoxFighter/TencentAD2020/blob/master/lstm.png?raw=true)
