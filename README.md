@@ -34,18 +34,32 @@
 
 ## 代码说明
 - show-data.ipynb
+
 下载数据，解压，简单分析数据
+
 - train_id_int_seq.py
+
 训练数据:执行脚本可以获得多 id 的用户点击序列，word2id 之后的 csv - test_id_int_seq.py
 测试数据:执行脚本可以获得多 id 的用户点击序列，word2id 之后的 csv - train_w2v.py
 训练 w2vmodel:python train_w2v.py target embed_size window_size 例如:python train_w2v.py ad_id 128 100
+
 - MultTensorDataset.py
+
 自定义的多 id 输入 tensordataset
+
 - LSTM_MultID_Model.py
+
 保存的训练模型
+
 - demo_multlstm_age_train.ipynb
+
 lstm age 模型训练
+
 - demo_multlstm_gender_train.ipynb
+
+
 lstm gender 模型训练
+
 - demo_multlstm_pred.ipynb
+
 lstm 测试结果生成
